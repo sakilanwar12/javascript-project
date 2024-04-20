@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  font-family: "Roboto", sans-serif;
+  display: grid;
+  place-content: center;
+}
+
+.container {
+  text-align: center;
+}
+
+.counter {
+  font-size: 40px;
+  font-weight: bold;
+  margin-top: 20px;
+  color: brown;
+}
+
+.btn-area {
+  margin-top: 20px;
+}
+
+.btn {
+  padding: 6px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 10px;
+  font-size: 20px;
+  border: 1px solid brown;
+  color: brown;
+  transition: all 0.3s ease;
+  background-color: transparent;
+}
+
+.btn:hover {
+  background-color: brown;
+  color: #fff;
+}
